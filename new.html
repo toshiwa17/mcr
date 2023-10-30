@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Picture Gallery</title>
+    <style>
+        /* Apply some basic styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #550808;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            float:left;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: -10px; /* Add some margin to create gaps between columns */
+        }
+
+        .column {
+            flex: 33.33%; /* Three equal columns */
+            padding: 5px;
+        
+        }
+
+        .column img {
+            width: 275px;
+            height: 200;
+            border-radius: 10px;
+        }
+        .container p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Picture Gallery</h1>
+        <p>Welcomeeeeee</p>
+        <div class="row">
+            <div class="column">
+                <img src="Events/agro.jpg" alt="Image 1" width="275" height="200">
+            </div>
+            <div class="column">
+                <img src="Events/agro1.jpg" alt="Image 2"width="275" height="200">
+            </div>
+            <div class="column">
+                <img src="Events/agro2.jpg" alt="Image 3"width="275" height="200">
+            </div>
+            <div class="column">
+                <img src="Events/agro3.jpg" alt="Image 3">
+            </div>
+            <!-- Add more columns for additional images -->
+        </div>
+    </div>
+</body>
+</html>
