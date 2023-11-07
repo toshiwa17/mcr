@@ -267,11 +267,13 @@ nav .fa {
     position: fixed;
     width: 50px;
     margin-top: 20%;
+    margin-left: -2%;
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, .4);
     z-index: 200;
 }
 .social li {
     height: 50px;
+    width: 50px;
     position: relative;
 }
 .social li a {
@@ -422,7 +424,7 @@ a {
     background-repeat: no-repeat;
     background-position: center top;
 }
-.history .card {
+.history .card1 {
     position: relative;
     max-width: 80%;
     margin: 10px;
@@ -444,14 +446,14 @@ a {
     text-align: right;
     border-radius: 10px;
 }
-.history .card .imgBx {
+.history .card1 .imgBx {
     max-width: 200px;
     flex: 0 0 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.history .card .imgBx img {
+.history .card1 .imgBx img {
     max-width: 75%;
 }
 .history .card2 .imgBx {
@@ -933,7 +935,7 @@ a {
         height: auto;
     }
     /* history */
-    .history .card {
+    .history .card1 {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
@@ -1058,7 +1060,7 @@ a {
         background-repeat: no-repeat;
         background-position: center top;
     }
-    .history .card {
+    .history .card1 {
         position: relative;
         max-width: 80%;
         margin: 10px;
@@ -1077,10 +1079,9 @@ a {
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
-        text-align: ;
         border-radius: 10px;
     }
-    .history .card .imgBx {
+    .history .card1 .imgBx {
         max-width: 200px;
         flex: 0 0 300px;
         display: flex;
@@ -1088,7 +1089,7 @@ a {
         align-items: center;
         background: white;
     }
-    .history .card .imgBx img {
+    .history .card1 .imgBx img {
         max-width: 75%;
     }
     .history .card2 .imgBx {
