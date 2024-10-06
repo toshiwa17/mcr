@@ -181,6 +181,7 @@ nav .fa {
     font-weight: 800;
     color: #F42941;
     text-align: left;
+    font-size: 22px;
 }
 .products img {
     width: 200px;
@@ -188,7 +189,7 @@ nav .fa {
 }
 .products p {
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-align: left;
 }
@@ -215,7 +216,7 @@ nav .fa {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('Picture/Banner.jpg');
+    /* background-image: url('Picture/Banner.jpg'); */
     height: 70%;
     background-position: center;
     background-repeat: no-repeat;
@@ -245,12 +246,13 @@ nav .fa {
     text-align: center;
     font-family: georgia;
     color:rgba(226, 8, 12, 0.89);
-    font-style: bold;
+    font-weight: bold;
     font-size: 16px ;
 }
 .news p{
-    color:rgba(7, 6, 6, 0.932)
-    
+    color:rgba(7, 6, 6, 0.932);
+    font-size: 12px;
+ 
 }
 #myImg {
     border-radius: 5px;
